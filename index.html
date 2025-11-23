@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!--
+Observação:
+Este projeto foi desenvolvido com foco em visualização em telas maiores (notebook e desktop).
+Em telas menores, alguns elementos podem não se ajustar perfeitamente.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Integrador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Cabeçalho-->
+    <header>
+      <div class="logo">Cuidar e Viver <span class="coracao">❤️</span></div>
+      <nav class="menu">
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#nossos-projetos">Projetos</a>
+        <a href="#ajudar">Como Ajudar</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+    <!-- Seção Início -->
+    <section id="inicio" class="inicio">
+      <div class="inicio-container">
+        <div class="inicio-texto">
+          <h2>ONG Cuidar e Viver</h2>
+          <p>
+            Cada vida que tocamos é uma semente de esperança que renasce.
+            Acreditamos que ninguém escolhe desaparecer na invisibilidade, e por
+            isso, nosso compromisso é iluminar caminhos onde antes só existia
+            escuridão. Levamos cuidado, mas também levamos presença, porque
+            estar ao lado de alguém que sofre já é, por si só, um ato de amor.
+            Nosso trabalho nasce no silêncio das ruas, na simplicidade dos
+            gestos e na verdade dos encontros. Cada abraço compartilhado, cada
+            palavra de apoio e cada olhar de carinho constrói pontes invisíveis,
+            pontes que resgatam a autoestima, o valor e a identidade de quem há
+            muito tempo não se sente visto. E assim, seguimos caminhando,
+            iluminando o que a sociedade tenta esconder, estendendo mãos onde
+            muitos desviam o olhar.
+          </p>
+        </div>
+
+        <div class="inicio-imagem">
+          <img
+            src="Imagens/ChatGPT Image - ação social.png"
+            alt="Voluntário da ONG Cuidar e Viver - ação social"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Sobre a ONG -->
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>
+        A ONG <strong>Cuidar e Viver</strong> nasceu do desejo de transformar a
+        realidade de pessoas que, mesmo vivendo nas ruas, carregam histórias,
+        sonhos e potencial. Criada por um grupo de voluntários inconformados com
+        a desigualdade social, a iniciativa surgiu a partir de uma percepção
+        simples, mas poderosa: muitas vezes, o que falta a alguém não é apenas
+        alimento ou abrigo, mas um gesto de cuidado que devolva dignidade e
+        esperança. Inspirada em movimentos sociais e projetos comunitários que
+        usam o afeto como ferramenta de mudança, a Cuidar e Viver adotou a
+        missão de oferecer atenção humanizada a quem mais precisa. Nosso
+        trabalho vai além das ações tradicionais: proporcionamos alimentação,
+        roupas, higiene, banho e cuidados capilares, porque acreditamos que
+        autoestima também salva vidas. Quando uma pessoa se sente vista,
+        respeitada e cuidada, ela começa a acreditar novamente em si mesma.
+        Cuidar e Viver é sobre estender a mão, olhar nos olhos e oferecer mais
+        do que ajuda: oferecer humanidade. E é junto da comunidade, dos
+        voluntários e de quem acredita em um país mais justo que seguimos
+        transformando histórias, uma pessoa de cada vez.
+      </p>
+      <img
+        src="Imagens/ChatGPT Image - foto em grupo.png"
+        alt="Voluntários da ONG Cuidar e Viver - foto em grupo"
+        class="imagem-grupo"
+      />
+    </section>
+    <!-- Projetos -->
+    <section id="nossos-projetos">
+      <h2>Nossos Projetos</h2>
+
+      <div class="carousel-wrapper">
+        <button class="arrow left" id="prevBtn">❮</button>
+
+        <div class="carousel" id="carousel">
+          <div class="card-projeto">
+            <div class="emoji">🍲</div>
+            <h3>Alimentação Solidária</h3>
+            <p>
+              Distribuição de refeições para famílias em situação de
+              vulnerabilidade.
+            </p>
+          </div>
+
+          <div class="card-projeto">
+            <div class="emoji">👕</div>
+            <h3>Roupas e Higiene</h3>
+            <p>Doação de roupas limpas e itens de higiene pessoal.</p>
+          </div>
+
+          <div class="card-projeto">
+            <div class="emoji">🚿</div>
+            <h3>Banho e Dignidade</h3>
+            <p>Acesso a banho quente e cuidados básicos.</p>
+          </div>
+
+          <div class="card-projeto">
+            <div class="emoji">💇</div>
+            <h3>Beleza e Autoestima</h3>
+            <p>
+              Cortes de cabelo e cuidados pessoais para fortalecer a autoestima.
+            </p>
+          </div>
+
+          <div class="card-projeto">
+            <div class="emoji">💬</div>
+            <h3>Apoio e Escuta</h3>
+            <p>Acolhimento emocional e conversas de suporte.</p>
+          </div>
+        </div>
+
+        <button class="arrow right" id="nextBtn">❯</button>
+      </div>
+    </section>
+    <!-- Como Ajudar -->
+    <section id="ajudar">
+      <h2>Como Ajudar</h2>
+      <p>
+        Ajudar a <strong>Cuidar e Viver</strong> é muito mais do que doar, é
+        participar da transformação de vidas que há muito tempo deixaram de ser
+        enxergadas pela sociedade. Cada gesto seu, por menor que pareça, se
+        torna um farol para alguém que vive na escuridão da vulnerabilidade.
+        Quando você contribui, você não entrega apenas alimentos, roupas ou
+        tempo. Você entrega esperança, dignidade, autoestima e, acima de tudo, a
+        certeza de que ninguém está sozinho. A solidariedade tem o poder de
+        reconstruir histórias, reacender sonhos e devolver sorrisos que o mundo
+        tentou apagar. Participar dessa missão é escolher ser parte ativa da
+        mudança que desejamos ver no mundo. Seja com uma doação, com uma
+        contribuição simbólica ou oferecendo algumas horas do seu dia como
+        voluntário, você se torna parte da corrente que mantém nossa causa viva.
+        Ajudar é um ato de amor que ecoa. E juntos, conseguimos ir muito mais
+        longe.
+      </p>
+      <div class="cards">
+        <div class="card">💝 Doe alimentos ou roupas</div>
+        <div class="card">💰 Faça uma contribuição simbólica</div>
+        <div class="card">🤝 Seja um voluntário</div>
+      </div>
+    </section>
+    <!-- Contato -->
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form>
+        <input type="text" placeholder="Seu nome" maxlength="50" required />
+        <input type="email" placeholder="Seu e-mail" maxlength="100" required />
+        <textarea
+          id="mensagem"
+          placeholder="Sua mensagem"
+          maxlength="800"
+          required
+        ></textarea>
+        <span id="contador"></span>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <!-- Rodapé -->
+    <footer>
+      <p>© 2025 Cuidar e Viver | Transformando vidas com solidariedade.</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

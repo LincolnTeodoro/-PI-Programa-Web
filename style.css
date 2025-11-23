@@ -1,0 +1,394 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1e88e5;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+.coracao {
+  font-size: 2rem;
+  margin-left: 0px;
+}
+
+.menu {
+  display: flex;
+  gap: 60px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+section {
+  padding: 40px 20px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#sobre {
+  background-color: #c9dbef;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+#sobre p {
+  font-size: 1.15rem;
+}
+
+.acao-social {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.acao-social .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.inicio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+  gap: 40px;
+  text-align: left;
+  padding: 40px 20px;
+}
+
+.inicio-texto {
+  flex: 1;
+}
+
+.inicio-texto h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 88%;
+}
+
+.inicio-texto p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.inicio-imagem img {
+  width: 100%;
+  max-width: 589px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 55px;
+  margin-left: 40px;
+}
+
+.imagem-grupo {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 20px;
+  margin-top: 25px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.nossos-projetos {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+#ajudar {
+  background-color: #c9dbef;
+  color: #1a1a1a;
+  border-radius: 12px;
+  padding: 40px 10px;
+  margin-top: 35px;
+}
+
+#sobre h2,
+#nossos-projetos h2,
+#ajudar h2,
+#contato h2 {
+  font-size: 1.7rem;
+}
+
+#ajudar p {
+  margin-bottom: 30px;
+  font-size: 1.15rem;
+}
+
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  width: 75%;
+  scroll-behavior: smooth;
+}
+
+.card-projeto {
+  min-width: 250px;
+  background-color: #102542;
+  padding: 25px;
+  border-radius: 15px;
+  margin: 0 10px;
+  text-align: center;
+  color: white;
+}
+
+.emoji {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.arrow {
+  background: transparent;
+  color: #1e88e5;
+  font-size: 27px;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow:hover {
+  background-color: #1e88e5;
+  color: white;
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+  height: 90px;
+}
+
+#contador {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+}
+
+button {
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+/* Rodapé */
+footer {
+  background-color: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Modo escuro automático*/
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+  }
+  header {
+    background-color: #1e3a8a;
+  }
+  .hero {
+    background-color: #1e293b;
+  }
+  .card {
+    background-color: #1e293b;
+    color: #e2e8f0;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  }
+  button {
+    background-color: #2563eb;
+  }
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  footer {
+    background-color: #1e3a8a;
+  }
+  a {
+    color: #60a5fa;
+  }
+  a:hover {
+    color: #93c5fd;
+  }
+  #sobre {
+    background-color: #202938;
+    color: #e2e8f0;
+  }
+  #ajudar {
+    background-color: #202938;
+    color: #e2e8f0;
+  }
+}
+
+/* RESPONSIVO PARA CELULARES */
+
+@media (max-width: 600px) {
+  /* Menu vira coluna */
+  .menu {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  /* Bloco do início (texto + imagem) vira coluna */
+  .inicio-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inicio-texto h2 {
+    width: 100%;
+  }
+
+  .inicio-imagem img {
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+  /* Projetos */
+  .carousel {
+    width: 100%;
+  }
+
+  .card-projeto {
+    min-width: 85%;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  /* Cards do "Como ajudar" */
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Ajuste no texto geral */
+  section {
+    padding: 20px;
+  }
+}
+
+/*RESPONSIVO PARA TABLETS*/
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .menu {
+    gap: 25px;
+  }
+
+  .inicio-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inicio-imagem img {
+    max-width: 80%;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .card-projeto {
+    min-width: 45%;
+  }
+
+  .cards {
+    gap: 10px;
+  }
+}
