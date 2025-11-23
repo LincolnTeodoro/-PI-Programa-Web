@@ -56,17 +56,6 @@ Observação: Em telas muito pequenas, alguns elementos podem não se ajustar pe
 
 ● Organização de código clara e semântica
 
-📂 Estrutura de Pastas
-
-/
-├── index.html
-├── style.css
-├── script.js
-└── Imagens/
-      ├── ChatGPT Image - ação social.png
-      ├── ChatGPT Image - foto em grupo.png
-      └── outras imagens...
-
 🧑‍🎓 Sobre o Projeto Integrador
 
 Este Projeto Integrador, envolve práticas de:
